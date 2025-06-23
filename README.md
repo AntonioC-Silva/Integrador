@@ -1,7 +1,5 @@
 # 🖥️ AquariTech
 
-Logo da AquariTech(./Images/Aquari Tech.png)
-
 ## Sobre o Projeto
 
 AquariTech é um e-commerce especializado na venda de **gabinetes de alta qualidade** para entusiastas de hardware. O nome une "Aquari" (de aquário) e "Tech" (de tecnologia), representando bem a ideia de uma "caixa cheia de tecnologia".
