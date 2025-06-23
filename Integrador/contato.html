@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sobre Nós</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="./Images/Tech (2).png" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <section class="containerTopo">
+                <figure class="logoMarca">
+                    <a href="index.html"><img src="./Images/Aquari Tech.png" alt="Logo da Loja" /></a>
+                </figure>
+
+                <form class="barraBusca">
+                    <label class="visualmenteOculto" for="campoBusca">Buscar</label>
+                    <input type="search" id="campoBusca" name="termoBusca" placeholder="Buscar..." />
+                    <button type="submit" aria-label="Botão de busca">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+
+                <section class="iconesTopo">
+                    <article class="iconeTopo">
+                        <a href="carrinho.html" class="linkLogin" aria-label="Ir para o carrinho de compras">
+                            <i class="bi bi-cart3"></i>
+                            <p>Carrinho</p>
+                        </a>
+                    </article>
+
+                    <article class="iconeTopo">
+                        <a href="login.html" class="linkLogin" aria-label="Ir para a página de Login/Cadastro">
+                            <img src="./Images/profile-user.png" alt="Ícone de usuário" class="iconeUsuario" />
+                            <p>Login/Cadastro</p>
+                        </a>
+                    </article>
+                </section>
+            </section>
+
+            <nav class="menuNavegacao">
+                <hr class="linhaMenu" />
+                <ul class="listaMenu2">
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        ---
+
+        <main class="geral">
+            <section class="contatoSecao">
+                <h2 class="contatoTitulo">Nos Contate</h2>
+                <hr class="contatoLinha" />
+                <p class="contatoDescricao">
+                    Tem alguma dúvida em relação aos nossos produtos, marcas, etc.?
+                    Este espaço é reservado para isso. Envie-nos sua dúvida e seu e-mail
+                    para que possamos responder assim que possível.
+                </p>
+
+                <form class="formularioContato">
+                    <label class="rotuloCampo" for="emailContato">Seu Email:</label>
+                    <input class="campoInput" type="email" id="emailContato" name="emailContato" placeholder="exemplo@email.com" />
+
+                    <label class="rotuloCampo" for="perguntaContato">Dúvida:</label>
+                    <input class="campoInput" type="text" id="perguntaContato" name="perguntaContato" placeholder="Digite sua dúvida aqui..."  />
+
+                    <button class="botaoEnviar" type="submit">
+                        <i class="bi bi-send"></i> Enviar
+                    </button>
+                </form>
+            </section>
+
+            <section class="faqSecao">
+                <h2 class="faqTitulo">Dúvidas Frequentes</h2>
+                <ul class="listaDuvidas">
+                    <li class="itemDuvida">
+                        <strong class="pergunta">Como acompanho meu pedido?</strong>
+                        <p class="resposta">Você pode acompanhar pelo painel do cliente ou entrando em contato com o suporte.</p>
+                    </li>
+                    <li class="itemDuvida">
+                        <strong class="pergunta">Quais formas de pagamento são aceitas?</strong>
+                        <p class="resposta">Aceitamos cartões de crédito, débito, Pix e boleto bancário.</p>
+                    </li>
+                    <li class="itemDuvida">
+                        <strong class="pergunta">Qual o prazo de entrega?</strong>
+                        <p class="resposta">Depende da sua região, mas geralmente de 3 a 7 dias úteis.</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        ---
+
+        <hr class="linhaRodape" />
+
+        <footer class="rodape">
+            <section class="secaoRodape">
+                <h2 class="tituloRodape">Links Úteis</h2>
+                <nav class="navegacaoRodape">
+                    <ul>
+                        <li class="itemRodape"><a href="catalogo.html">Catálogo</a></li>
+                        <li class="itemRodape"><a href="contato.html">Contato</a></li>
+                        <li class="itemRodape"><a href="sobre.html">Sobre Nós</a></li>
+                        <li class="itemRodape"><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="secaoRodape">
+                <h2 class="tituloRodape">Contatos</h2>
+                <address class="contatoRodape">
+                    <p>contato@aquaritech.com.br</p>
+                    <p>(19) 9999-9999</p>
+                </address>
+            </section>
+
+            <section class="secaoRodape">
+                <h2 class="tituloRodape">Formas de Pagamento</h2>
+                <section class="pagamentoRodape">
+                    <article class="itemPagamento">
+                        <i class="bi bi-credit-card"></i>
+                        <p>Cartão</p>
+                    </article>
+                    <article class="itemPagamento">
+                        <i class="bi bi-qr-code"></i>
+                        <p>Pix</p>
+                    </article>
+                    <article class="itemPagamento">
+                        <i class="bi bi-upc"></i>
+                        <p>Boleto</p>
+                    </article>
+                </section>
+            </section>
+
+            <section class="logoRodape">
+                <figure>
+                    <img src="./Images/Aquari Tech.png" alt="Logo da Loja" />
+                </figure>
+            </section>
+
+            <section class="direitos">
+                <small>&copy; 2025 Aquari Tech. Todos os direitos reservados.</small>
+            </section>
+        </footer>
+    </body>
+</html>
