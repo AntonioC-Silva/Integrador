@@ -1,4 +1,4 @@
-# 🖥️ AquariTech
+# AquariTech
 
 ## Sobre o Projeto
 
