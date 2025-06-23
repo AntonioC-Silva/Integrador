@@ -1,6 +1,6 @@
 # 🖥️ AquariTech
 
-![Logo da AquariTech](../Images/Aquari Tech.png)
+Logo da AquariTech(./Images/Aquari Tech.png)
 
 ## Sobre o Projeto
 
